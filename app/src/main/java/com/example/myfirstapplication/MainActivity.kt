@@ -21,11 +21,6 @@ class MainActivity : AppCompatActivity() {
         bindingClass.button4.setOnClickListener{
             val resultValue  = bindingClass.edValue.text.toString()
             bindingClass.textView3.visibility =View.VISIBLE
-            when(resultValue){
-
-                in "" -> bindingClass.textView3.text ="Ошибка"
-                else -> bindingClass.textView3.text = resultValue
-            }
         }
 
 
