@@ -13,8 +13,6 @@ import com.example.myfirstapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     lateinit var bindingClass : ActivityMainBinding
-    val a = 324
-    val b = 100
     override fun onCreate(s: Bundle?) {
         super.onCreate(s)
         bindingClass = ActivityMainBinding.inflate(layoutInflater)
